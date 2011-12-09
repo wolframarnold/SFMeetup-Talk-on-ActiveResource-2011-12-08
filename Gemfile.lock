@@ -29,6 +29,7 @@ GEM
       activesupport (= 3.1.3)
     activesupport (3.1.3)
       multi_json (~> 1.0)
+    addressable (2.2.6)
     arel (2.2.1)
     builder (3.0.0)
     coffee-rails (3.1.1)
@@ -38,6 +39,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.1.3)
+    crack (0.3.1)
     diff-lcs (1.1.3)
     erubis (2.7.0)
     execjs (1.2.9)
@@ -114,6 +116,9 @@ GEM
     uglifier (1.0.4)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
+    webmock (1.7.8)
+      addressable (~> 2.2, > 2.2.5)
+      crack (>= 0.1.7)
 
 PLATFORMS
   ruby
@@ -125,3 +130,4 @@ DEPENDENCIES
   rspec-rails (~> 2.7.0)
   sass-rails (~> 3.1.5)
   uglifier (>= 1.0.3)
+  webmock (~> 1.7.8)
